@@ -41,3 +41,25 @@ iframe#tela {
     width: 267px;
     height: 471px;
 }
+
+
+section#redes-sociais{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    margin: 15px;
+    float: right;
+    box-sizing: border-box; /* Faz com que a borda faça parte da caixa e as outras imagens não fique se mexendo quando o mouse passar por cima do ícone*/
+}
+
+section#redes-sociais img:hover{
+    transform: scale(95%);
+    border: 2px solid rgba(255, 255, 255, 0.5) ;
+    transition: transform .5s;
+}
